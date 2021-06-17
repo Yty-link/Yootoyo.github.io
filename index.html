@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile•个人主页</title>
+    <link rel="shortcut icon" href="/img/icon.ico">
+    <script src="/js/vue.js"></script>
+    <link href="/css/background-top.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <script src="/js/time.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+<!-- 看板娘设置 -->
+<!-- waifu-tips.js 依赖 JQuery 库 -->
+<script src="assets/jquery.min.js?v=3.3.1"></script>
+    
+<!-- 实现拖动效果，需引入 JQuery UI -->
+<script src="assets/jquery-ui.min.js?v=1.12.1"></script>
+
+<!-- 使用 aotuload.js 引入看板娘 -->
+<script src="assets/autoload.js?v=1.4.2"></script>
+
+    <!-- 整体页面开始 -->
+    <div id="app" class="all">
+        <!-- 顶部栏开始 -->
+        <div class="top">
+            <ul class="top-ul">
+                <li class="top-img"><a href="https://zh.moegirl.org.cn/%E4%B8%AD%E9%87%8E%E6%A2%93" target="_blank"><img src="/img/压缩后缩略图.png" style="height: 80px; width: 80px;" title="是中野梓呀q(≧▽≦q)"></a></li>
+                <li class="top-lianxi"><a href="https://zh.moegirl.org.cn/%E5%B4%87%E5%AE%AB%E6%BE%AA" target="_blank"><img src="/img/澪.jpg" style="height: 80px; width: 80px;" title="开始我们的约会（战争）吧"></a></li>
+                <li class="top-me"><a href="https://zh.moegirl.org.cn/%E8%B4%9D%E5%B0%94%C2%B7%E5%85%8B%E6%9C%97%E5%B0%BC" target="_blank"><img src="/img/贝尔·克朗尼.jpg" style="height: 80px; width: 80;" title="大爱地错"></a></li>
+            </ul>
+        </div>
+        <!-- 顶部栏结束 -->
+        <!-- 主要内容开始 -->
+        <div class="main">
+            <div class="main-1">
+                <span class="span" title="很喜欢的话">{{motto}}</span>
+                <span class="span" title="藏在这都被你发现了φ(゜▽゜*)♪">{{name}}</span>
+                <span class="span" title="想躺平了">{{introduce}}</span>
+            </div>
+            <div class="main-2">
+                <span class="span">{{mail}}</span>
+                <span class="span">{{qq}}</span>
+            </div>
+            <div class="main-3" style="cursor: pointer;" title="还在摸鱼……">
+                <span>{{plan}}</span>
+            </div>
+            <div class="main-4" style="cursor: pointer;" title="还在摸鱼……">
+                <span>{{recommend}}</span>
+            </div>
+        </div>
+        <!-- 主要内容结束 -->
+    </div>
+    <!-- 整体页面结束 -->
+    <!-- 结尾部分 -->
+    <div class="end">
+        <span><a href="https://space.bilibili.com/179753144" target="_blank"><img src="/img/bilibili.png" class="bili" title="前往我的哔哩哔哩"></img></a></span>
+        <span>|</span>
+        <span><a href="https://tieba.baidu.com/home/main?id=tb.1.7f53ff92.UKzb7iBkHVGwHHXUfa6xMQ&fr=userbar&red_tag=2270352901" target="_blank"><img src="/img/CN_baidu_tieba.png" class="tieba" title="前往我的贴吧主页"></img></a></span>
+        <span>|</span>
+        <span style="color: white; cursor: pointer;" title="@扬呀扬">Copyright ©2021</span>
+    </div>
+    <script src="/js/data.js"></script>
+    <script>
+        document.addEventListener('visibilitychange', function () {if (document.visibilityState == 'hidden') {
+        normal_title = document.title;document.title = '页面崩溃惹(●ˇ∀ˇ●)';
+        } else document.title = normal_title;
+        });
+    </script>
+        
+</body>
+</html>
