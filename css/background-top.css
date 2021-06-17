@@ -20,7 +20,7 @@ body {
 .top {
     height: 80px;
     width: 99.5%;
-    border: 1px solid #2A3853;
+/*     border: 1px solid #2A3853; */
     margin: 0 auto;
     margin-bottom: 25px;
     line-height: 5em;
