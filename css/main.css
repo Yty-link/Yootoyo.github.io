@@ -8,11 +8,12 @@
 .main-1 , .main-2 , .main-3 , .main-4 {
     height: 150px;
     width: 50%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     margin-bottom: 25px;
-    backdrop-filter: blur(15px);
-    color: white;
-    border: 1px solid #2A3853;
+    /* backdrop-filter: blur(15px); */
+    color: black;
+    font-size: 18px;
+    /* border: 1px solid #2A3853; */
 }
 .main-1 , .main-2 , .main-3 , .main-4 {
     display: flex;
@@ -24,6 +25,7 @@
 .span {
     margin-top: 10px;
     margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.4);
 }
 /* 底部 */
 .end {
