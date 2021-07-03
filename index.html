@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile•个人主页</title>
-    <link rel="shortcut icon" href="/img/icon.ico">
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Yootoyo/Yootoyo.github.io/img/icon.ico">
     <script src="/js/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <link href="/css/background-top.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
 </head>
 <body>
 <!-- 看板娘设置 -->
@@ -44,8 +44,8 @@
                 <span class="span">{{mail}}</span>
                 <span class="span">{{qq}}</span>
             </div>
-            <div class="main-3" style="cursor: pointer;" title="还在摸鱼……">
-                <span class="span">{{plan}}</span>
+            <div class="main-3" style="cursor: pointer;" title="点击跳转">
+                <span class="span"><a href="/view/two.html" target="_blank">{{plan}}</a></span>
             </div>
             <div class="main-4" style="cursor: pointer;" title="还在摸鱼……">
                 <span class="span">{{recommend}}</span>
