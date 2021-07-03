@@ -1,0 +1,23 @@
+/* 页面内容 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main {
+    background: url(/img/202104079.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.one {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.6);
+}
+p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
