@@ -5,14 +5,15 @@
     list-style: none;
 }
 .main {
-    background: url(https://cdn.jsdelivr.net/gh/Yootoyo/Yootoyo.github.io/img/202104079.jpg);
+    background: url(/img/202104079.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    width: 100%;
+    background-attachment: fixed;
 }
 .one {
     width: 60%;
-    height: 100%;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.6);
 }
