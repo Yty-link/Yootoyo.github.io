@@ -8,6 +8,6 @@ var vm = new Vue({
         mail:'邮箱：Yintianyang_like@163.com',
         qq:'QQ：2110705459',
         plan:'任务栏透明+居中，win10美化方案',
-        recommend:'Edge浏览器超好用拓展推荐',
+        recommend:'Edge浏览器拓展推荐',
     }
 })
