@@ -4,7 +4,7 @@ var vm = new Vue({
     data:{
         motto:'「  充盈、满溢、而后错过  」',
         name:'「  这是Profile的个人主页  」',
-        introduce:'「  即将实习的在校大学生一枚  」',
+        introduce:'「  实习大学生一枚  」',
         mail:'邮箱：Yintianyang_like@163.com',
         qq:'QQ：2110705459',
         plan:'任务栏透明+居中，win10美化方案',
